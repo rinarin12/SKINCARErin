@@ -197,6 +197,101 @@ footer {
         justify-content: center;
     }
 
+/* HALAMAN JENIS KULIT */
+
+.page-banner {
+    background: #edf1e7;
+    text-align: center;
+    padding: 65px 20px;
+}
+
+.page-banner h1 {
+    color: #425640;
+    font-size: 38px;
+    margin: 12px 0;
+}
+
+.page-banner p {
+    color: #687568;
+    line-height: 1.8;
+}
+
+.page-banner p:first-child {
+    color: #8b9d78;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+.skin-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.skin-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+}
+
+.skin-card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.skin-content {
+    padding: 22px;
+}
+
+.skin-content h3 {
+    color: #526b50;
+    margin-bottom: 12px;
+    font-size: 21px;
+}
+
+.skin-content p {
+    color: #687568;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+.skin-content h4 {
+    color: #71896a;
+    margin-bottom: 5px;
+}
+
+.skin-info {
+    background: #edf1e7;
+    text-align: center;
+    padding: 55px 10%;
+}
+
+.skin-info h2 {
+    color: #526b50;
+    margin-bottom: 15px;
+}
+
+.skin-info p {
+    color: #687568;
+    line-height: 1.8;
+    max-width: 750px;
+    margin: auto;
+}
+
+@media (max-width: 700px) {
+    .skin-container {
+        grid-template-columns: 1fr;
+    }
+
+    .page-banner h1 {
+        font-size: 30px;
+    }
+}
+
     .navbar ul {
         justify-content: center;
     }
